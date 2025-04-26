@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site Blog - Somente HTML</title>
+  </head>
+  <body>
+    <!-- Cabeçalho -->
+    <header>
+      <h1>BLOG XPTO</h1>
+      <nav class="menu-principal">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="anuncios.html">Patrocínios e Anúncios</a></li>
+          <li><a href="sobre.html">Sobre Mim</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Conteúdo do Blog -->
+    <main>
+      <h2>Patrocínios e Anúncios</h2>
+      <div class="caixa-patrocinios">
+        <h3>Puc Minas Virtual</h3>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/PBr5ZKtBLPQ?si=hZBEHJP8YQKRaNck"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="caixa-anuncios">
+        <h3>Anúncios</h3>
+        <img src="imagens/imagem1.jpg" alt="Imagem Patrocínios e Anúncios 1" />
+        <img src="imagens/imagem2.jpg" alt="Imagem Patrocínios e Anúncios 2" />
+        <img src="imagens/imagem3.jpg" alt="Imagem Patrocínios e Anúncios 3" />
+      </div>
+      <div class="caixa-videos"></div>
+    </main>
+
+    <!-- Barra Lateral -->
+    <aside>
+      <div class="caixa-pesquisa">
+        <form action="pesquisar" method="POST">
+          <fieldset>
+            <img src="botao-pesquisar.png" alt="Imagem lupa para pesquisar" />
+            <caption>
+              Pesquisar
+            </caption>
+            <div>
+              <input type="text" class="texto_pesquisa" />
+              <button class="botao_ok">Ok</button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+
+      <div class="caixa-categoria">
+        <img src="botao-categorias.png" alt="Imagem lista de categorias" />
+        <span>Categorias</span>
+        <ul>
+          <li><a href="#">Categoria 1</a></li>
+          <li><a href="#">Categoria 2</a></li>
+          <li><a href="#">Categoria 3</a></li>
+          <li><a href="#">Categoria 4</a></li>
+        </ul>
+      </div>
+    </aside>
+  </body>
+</html>
